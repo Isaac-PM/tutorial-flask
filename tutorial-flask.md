@@ -85,15 +85,69 @@ En conclusión, seguir los siguientes pasos permitirá tener un entorno de desar
 
 1. Crear y abrir una nueva carpeta para el proyecto, en este caso se llamará "flask-tutorial".
 
-2. Instalar las extensiones necesarias, utilizando el script que se encuentra en la carpeta **extensions**, este puede ser descargado desde el siguiente enlace: [extensions]().
+![](images/tutorial-flask-13.png)
 
-3. 
+![](images/tutorial-flask-14.png)
 
+2. Instalar las extensiones necesarias, abriendo el archivo **extensions.txt** que se encuentra en la carpeta **extensions** de este repositorio, y copiando el contenido en el portapapeles.
 
+3. Presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Configure Recommended Extensions**, borrar el contenido del archivo **extensions.json** y pegar el contenido del portapapeles.
 
+![](images/tutorial-flask-15.png)
 
+![](images/tutorial-flask-16.png)
 
+4. Dirigirse al menú de extensiones, en la parte izquierda de VSCode. En la barra de búsqueda, escribir **@recommended** e instalar haciendo clic sobre el ícono de nube. Finalmente, reiniciar VSCode ignorando los mensajes de error.
 
-3. Seleccionar un interprete de Python para el entorno de proyecto. Para ello, presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Python: Select Interpreter**.
+![](images/tutorial-flask-17.png)
 
-4. Crear un nuevo entorno de proyecto en VSCode. Para ello, presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Python: Create environment**.
+5. Seleccionar un interprete de Python para el entorno de proyecto. Para ello, presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Python: Select Interpreter**. Seleccionar el entorno de Python que se instaló en los pasos anteriores.
+
+![](images/tutorial-flask-18.png)
+
+6. Crear un nuevo entorno de proyecto en VSCode. Para ello, presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Python: Create environment**. Además, elegir la opción **Venv: Create a new virtual environment using venv**, y seleccionar el interprete anteriormente descrito. Esperar a que se cree el entorno de proyecto.
+
+![](images/tutorial-flask-19.png)
+
+7. Correr una nueva terminal, con la combinación de teclas **Ctrl+Shift+`** o **Ctrl+Shift+ñ**. Donde probablemente se mueste el siguientre mensaje de error:
+
+```
+PS C:\Users\User\Documents\flask-tutorial> & "c:/Users/User/Documents/flask-tutorial/.venv/Scripts/Activate.ps1"
+& : File C:\Users\User\Documents\flask-tutorial\.venv\Scripts\Activate.ps1 cannot be loaded because 
+running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:3
++ & "c:/Users/User/Documents/flask-tutorial/.venv/Scripts/Activate. ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\User\Documents\flask-tutorial>
+```
+8. Para solucionar este problema, se debe cambiar el `shell` de la terminal. Para ello, presionar **Ctrl+Shift+P** para abrir el menú de comandos y escribir **Terminal: Select Default Shell**. Seleccionar la opción **Command Prompt**.
+
+![](images/tutorial-flask-20.png)
+
+9. Una vez cambiado el shell, se debe volver a correr la terminal, y se debe ver el siguiente mensaje, indicando que el entorno de proyecto se ha activado correctamente:
+
+```
+Microsoft Windows [Version 10.0.19045.2006]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.venv/Scripts/activate.bat"
+
+(.venv) C:\Users\User\Documents\flask-tutorial>
+```
+
+### Instalación de Flask
+
+1. Instalar Flask en el entorno de proyecto. Para ello, correr la terminal y escribir el siguiente comando:
+
+```
+(.venv) C:\Users\User\Documents\flask-tutorial>pip install flask
+```
+
+> **Nota**: `pip` es el gestor de paquetes de Python, y se utiliza para instalar y administrar paquetes de Python. En este caso, se utiliza para instalar Flask. Es una herramienta muy poderosa, y se puede encontrar variedad de paquetes en el repositorio de Python, [PyPI](https://pypi.org/).
+
+### Probando Flask con un proyecto simple
+
+> **Nota**: En este punto, se puede seguir el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Sin embargo, a continuación se desarrolla un ejemplo estilo "Hola mundo". Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode".
