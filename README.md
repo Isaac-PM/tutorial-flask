@@ -145,7 +145,13 @@ C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.
 1. Instalar Flask en el entorno de proyecto. Para ello, correr la terminal y escribir el siguiente comando:
 
 ```
-(.venv) C:\Users\User\Documents\flask-tutorial>pip install flask
+(.venv) C:\Users\User\Documents\flask-tutorial>pip install Flask
+```
+
+2. Postetiormente ejecutar: 
+
+```
+(.venv) C:\Users\User\Documents\flask-tutorial>pip install -U autopep8
 ```
 
 > **Nota**: `pip` es el gestor de paquetes de Python, y se utiliza para instalar y administrar paquetes de Python. En este caso, se utiliza para instalar Flask. Es una herramienta muy poderosa, y se puede encontrar variedad de paquetes en el repositorio de Python, [PyPI](https://pypi.org/).
