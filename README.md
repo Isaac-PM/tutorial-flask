@@ -32,7 +32,7 @@ La versión mínima requerida para trabajar con Flask es Python 3.7 o superior, 
 
 # Eligiendo un editor de código
 
-El siguiente paso después de instalar Python es seleccionar un editor de código. Un editor de código es una herramienta que le permite escribir, editar y depurar sus programas.
+El siguiente paso después de instalar Python es seleccionar un editor de código. Un editor de código es una herramienta que le permite escribir, editar y depurar programas.
 
 [Visual Studio Code](https://code.visualstudio.com/) (VSCode) (o la alternativa libre [VSCodium](https://vscodium.com/)) es una excelente opción en este caso, por varias razones:
 
@@ -76,14 +76,14 @@ Un entorno de proyecto en VSCode es un conjunto de configuraciones, extensiones 
 
 En este caso, utilizar un entorno de proyecto en Visual Studio Code puede ser útil por varias razones:
 
-- Aislamiento: Al tener un entorno de proyecto dedicado para un proyecto específico, se puede aislar las dependencias y configuraciones de ese proyecto de las de otros proyectos. Esto es especialmente útil en caso de que diferentes proyectos requieran versiones diferentes de las mismas dependencias.
+- Aislamiento: Al tener un entorno de proyecto dedicado para un proyecto específico, se pueden aislar las dependencias y configuraciones de ese proyecto de las de otros. Esto es especialmente útil en caso de que diferentes proyectos requieran versiones diferentes de las mismas dependencias.
 - Reproducibilidad: Al tener todas las dependencias y configuraciones registradas en el entorno de proyecto, es más fácil reproducir y compartir el entorno de desarrollo con otros desarrolladores.
 - Consistencia: Al tener un entorno de proyecto dedicado, se puede asegurar una mayor consistencia en el desarrollo y pruebas del proyecto, ya que se pueden evitar problemas que surgen de diferencias en los entornos de desarrollo.
-- Mejora de la productividad: Al tener un entorno de proyecto que incluya las extensiones y configuraciones adecuadas para un proyecto específico, se puede aumentar la productividad al tener acceso a herramientas y funcionalidades que son específicas para el proyecto.
+- Mejora de la productividad: Al tener un entorno de proyecto que incluya las extensiones y configuraciones adecuadas, se puede aumentar la productividad al tener acceso a herramientas y funcionalidades que son específicas para este.
 
 En conclusión, seguir los siguientes pasos permitirá tener un entorno de desarrollo óptimo y organizado para trabajar con Flask.
 
-### Configuración de VSCode
+## Configuración de VSCode
 
 1. Crear y abrir una nueva carpeta para el proyecto, en este caso se llamará "flask-tutorial".
 
@@ -140,7 +140,7 @@ C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.
 (.venv) C:\Users\User\Documents\flask-tutorial>
 ```
 
-### Instalación de Flask
+## Instalación de Flask
 
 1. Instalar Flask en el entorno de proyecto. Para ello, correr la terminal y escribir el siguiente comando:
 
@@ -150,6 +150,25 @@ C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.
 
 > **Nota**: `pip` es el gestor de paquetes de Python, y se utiliza para instalar y administrar paquetes de Python. En este caso, se utiliza para instalar Flask. Es una herramienta muy poderosa, y se puede encontrar variedad de paquetes en el repositorio de Python, [PyPI](https://pypi.org/).
 
-### Probando Flask con un proyecto simple
+# Probando Flask con un proyecto simple
 
-> **Nota**: En este punto, se sigue el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode". Se usará una carpeta dedicada para este fin.
+En este punto, se sigue el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode". Se usará una carpeta dedicada para este fin.
+
+Se explicará el código de la aplicación, y se explicará el funcionamiento de cada archivo por medio de archivos Markdown y comentarios en el código.
+
+# Referencias
+
+- Automatically install extensions in VS Code? (2023, February 05). Retrieved from https://stackoverflow.com/questions/35929746/automatically-install-extensions-in-vs-code
+- Dyouri, A. (2021). How To Create Your First Web Application Using Flask and Python 3. DigitalOcean. Retrieved from https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
+- Flask Documentation (2.0.x). (2022, March 28). Retrieved from https://flask.palletsprojects.com/en/2.0.x
+- Managing Extensions in Visual Studio Code. (2023, February 05). Retrieved from https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+- Python and Flask Tutorial in Visual Studio Code. (2023, February 05). Retrieved from https://code.visualstudio.com/docs/python/tutorial-flask
+
+<center><h2 style="text-align: center;">Licencia / License</h2>
+<h3 style="text-align: center;">Isaac-PM @ <a href="https://github.com/Isaac-PM">https://github.com/Isaac-PM</a></h3>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">Salvo que se indique lo contrario, esta obra tiene licencia <strong>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong> @ <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a></p>
+<p style="text-align: center;">Unless otherwise noted, this work is licensed <strong>Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</strong> @ <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><strong>Derechos reservados a los autores indicados en el campo de referencias.</strong></p>
+<p style="text-align: center;"><strong>All rights reserved to the authors indicated in the reference field.</strong></p></center>
