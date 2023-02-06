@@ -2,11 +2,13 @@
 
 ## Sobre Flask
 
-[Flask](https://flask.palletsprojects.com/en/2.2.x/) es un marco de trabajo (_framework_) de [Python](https://www.python.org/) para el desarrollo de aplicaciones web. Es una herramienta flexible y fácil de usar que permite crear rápidamente **aplicaciones web complejas** y escalables. 
+[Flask](https://flask.palletsprojects.com/en/2.2.x/) es un marco de trabajo (_framework_) de [Python](https://www.python.org/) para el desarrollo de aplicaciones web. Es una herramienta flexible y fácil de usar, que permite crear rápidamente **aplicaciones web complejas** y escalables.
 
 Una de las ventajas más destacadas de Flask es su tamaño pequeño y su facilidad de uso, lo que lo hace ideal para desarrolladores principiantes y experimentados. Además, Flask cuenta con una gran comunidad y una amplia gama de complementos y librerías disponibles, lo que lo hace una opción atractiva para el desarrollo de aplicaciones web. 
 
-Algunas de las principales funciones de Flask incluyen la gestión de URLs, la integración con bases de datos y la creación de plantillas HTML. En resumen, Flask es un marco de trabajo de Python altamente recomendado para el desarrollo de aplicaciones web, especialmente por su facilidad de uso y su gran capacidad de personalización.
+Algunas de las principales funciones de Flask incluyen la gestión de URLs, la integración con bases de datos y la creación de plantillas HTML. 
+
+En resumen, Flask es un marco de trabajo de Python altamente recomendado para el desarrollo de aplicaciones web, especialmente por su facilidad de uso y su gran capacidad de personalización.
 
 #  Instalación de Python
 
@@ -109,7 +111,7 @@ En conclusión, seguir los siguientes pasos permitirá tener un entorno de desar
 
 ![](images/tutorial-flask-19.png)
 
-7. Correr una nueva terminal, con la combinación de teclas **Ctrl+Shift+`** o **Ctrl+Shift+ñ**. Donde probablemente se mueste el siguientre mensaje de error:
+7. Correr una nueva terminal, con la combinación de teclas **Ctrl+Shift+`** o **Ctrl+Shift+ñ**. Donde probablemente se muestre el siguientre mensaje de error:
 
 ```
 PS C:\Users\User\Documents\flask-tutorial> & "c:/Users/User/Documents/flask-tutorial/.venv/Scripts/Activate.ps1"
@@ -150,4 +152,4 @@ C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.
 
 ### Probando Flask con un proyecto simple
 
-> **Nota**: En este punto, se puede seguir el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Sin embargo, a continuación se desarrolla un ejemplo estilo "Hola mundo". Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode".
+> **Nota**: En este punto, se sigue el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode". Se usará una carpeta dedicada para este fin.
