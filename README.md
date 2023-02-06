@@ -160,7 +160,7 @@ C:\Users\User\Documents\flask-tutorial>"c:/Users/User/Documents/flask-tutorial/.
 
 En este punto, se sigue el tutorial oficial de Flask, [Flask Tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/), para crear un proyecto de ejemplo. Además, la configuración del nuevos entornos para próximos proyectos, toma en cuenta únicamente los pasos 6 a 9 de la sección "Configuración de VSCode". Se usará una carpeta dedicada para este fin.
 
-Se explicará el código de la aplicación, y se explicará el funcionamiento de cada archivo por medio de archivos Markdown y comentarios en el código.
+Se explicará el código de la aplicación, y se explicará el funcionamiento por medio de archivos Markdown y comentarios en el código.
 
 # Referencias
 
